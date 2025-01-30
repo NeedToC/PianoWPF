@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace YoctoWPF.Mvvm.Input
+namespace PianoWPF.Core
 {
     public class RelayCommand<TContext> : ICommand
     {

@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YoctoWPF.Mvvm.ComponentModel
+namespace PianoWPF.Core
 {
     public class ObservableObject : INotifyPropertyChanged, INotifyPropertyChanging
     {

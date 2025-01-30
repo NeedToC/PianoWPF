@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using YoctoWPF.Mvvm.Input;
+using PianoWPF.Core;
 
-namespace PianoWPF
+namespace PianoWPF.Views
 {
     public class MainViewViewModel
     {

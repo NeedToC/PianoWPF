@@ -2,16 +2,17 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:PianoWPF"
+             xmlns:views="clr-namespace:PianoWPF.Views"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="KeyTemplate.xaml"/>
-                <ResourceDictionary Source="KeySharpRightTemplate.xaml"/>
-                <ResourceDictionary Source="KeySharpLeftTemplate.xaml"/>
+                <ResourceDictionary Source="Themes/KeyTemplate.xaml"/>
+                <ResourceDictionary Source="Themes/KeySharpRightTemplate.xaml"/>
+                <ResourceDictionary Source="Themes/KeySharpLeftTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-            <DataTemplate DataType="{x:Type local:MainViewViewModel}">
-                <local:MainView/>
+            <DataTemplate DataType="{x:Type views:MainViewViewModel}">
+                <views:MainView/>
             </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>

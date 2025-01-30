@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PianoWPF"
+        xmlns:views="clr-namespace:PianoWPF.Views"
         mc:Ignorable="d"
         Title="Piano"
         Height="500"
@@ -26,7 +27,7 @@
         
         <ContentControl>
             <ContentControl.Content>
-                <local:MainViewViewModel/>
+                <views:MainViewViewModel/>
             </ContentControl.Content>
         </ContentControl>
         
